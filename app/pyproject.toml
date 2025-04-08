@@ -1,0 +1,18 @@
+[project]
+name = "atlant"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "aeSynk",email = "daniyar211998@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "redis (>=5.2.1,<6.0.0)",
+    "fastapi[standard] (>=0.115.12,<0.116.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
